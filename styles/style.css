@@ -8,10 +8,10 @@
 }
 
 /* nav section */
-.header{
-    
+.header {
     background-color: #9376e0;
 }
+
 .header-section {
     max-width: 1200px;
     margin: 0 auto;
@@ -46,12 +46,14 @@
     justify-content: space-around;
     align-items: center;
 }
-.items-container a{
+
+.items-container a {
     text-decoration: none;
     font-size: 20px;
     color: white;
 }
-.items-container .login-btn a{
+
+.items-container .login-btn a {
     padding: 10px 20px;
     background-color: #e893cf;
     border-radius: 05px;
