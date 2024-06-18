@@ -1,9 +1,11 @@
 /* Fonts style from google fonts */
 @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
 
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&display=swap');
+
 /* Common style */
 * {
-    font-family: "Poppins", sans-serif;
+    font-family: "Poppins", sans-serif, "Dancing Script", cursive;
     padding: 0;
     margin: 0;
     box-sizing: border-box;
@@ -57,10 +59,73 @@
     color: white;
 }
 
-.login-btn{
+.login-btn {
     padding: 10px 20px;
     background-color: #e893cf;
     border-radius: 05px;
     color: black;
     margin-bottom: 10px;
+}
+
+/* Banner section style */
+.banner-section {
+    max-width: 1200px;
+    background-color: rgb(205, 219, 219);
+    padding: 20px;
+    margin: 0 auto;
+    margin-top: 20px;
+    min-height: 400px;
+    display: flex;
+    border-radius: 05px;
+
+}
+
+.text-container {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.banner-img-container {
+    width: 50%;
+}
+
+.banner-img-container img {
+    width: 100%;
+    height: 100%;
+    display: block;
+    object-fit: cover;
+}
+
+.text-container
+
+span {
+    font-size: 45px;
+}
+.banner-heading{
+    background: linear-gradient(to bottom, #e893cf, #9376e0);
+    background-clip: text;
+    color: transparent;
+    font-size: 60px;
+}
+.banner-description{
+    font-family: "Dancing Script", cursive;
+    font-size: 35px;
+    font-weight: 900;
+}
+.icons{
+    display: flex;
+    gap: 30px;
+}
+.fa-brands{
+    font-size: 35px;
+}
+.cmn-btn{
+    padding: 10px 20px;
+    background-color: #e893cf;
+    color: white;
+    border: 02px solid tomato;
+    border-radius: 10px;
 }
