@@ -12,4 +12,18 @@
     .items-container {
         gap: 15px;
     }
+
+    .banner-section {
+        flex-direction: column;
+    }
+
+    .text-container {
+        width: 100%;
+        order: 2;
+    }
+
+    .banner-img-container {
+        width: 100%;
+        order: 1;
+    }
 }

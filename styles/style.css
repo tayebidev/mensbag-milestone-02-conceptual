@@ -86,10 +86,12 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    margin-bottom: 15px;
 }
 
 .banner-img-container {
     width: 50%;
+    position: relative;
 }
 
 .banner-img-container img {
@@ -97,6 +99,22 @@
     height: 100%;
     display: block;
     object-fit: cover;
+    border-radius: 15px;
+}
+.discount{
+    width: 90px;
+    height: 90px;
+    background-color: #4e4070;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    border-radius: 50%;
+    position: absolute;
+    bottom: 62%;
+    left: 69%;
+    font-size: 20px;
+    font-weight: 500;
 }
 
 .text-container
@@ -126,6 +144,6 @@ span {
     padding: 10px 20px;
     background-color: #e893cf;
     color: white;
-    border: 02px solid tomato;
     border-radius: 10px;
+    border: none;
 }
