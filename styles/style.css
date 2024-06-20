@@ -147,3 +147,40 @@ span {
     border-radius: 10px;
     border: none;
 }
+
+/* product section style */
+.product-section{
+    max-width: 1200px;
+    margin: 0 auto;
+}
+.grid-container{
+    min-width: 400px;
+    /* border: 01px solid tomato; */
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+    
+}
+.single-product{
+    /* border: 01px solid blue; */
+    /* width: 30%; */
+    padding: 10px;
+    background-color: #e6e9eb;
+    border-radius: 10px;
+}
+.single-product img{
+    width: 70%;
+    margin: 0 auto;
+    display: block;
+}
+.heading-icons{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.icon{
+    background-color: #e893cf;
+    font-size: 20px;
+    border-radius: 50%;
+    padding: 10px;
+}
